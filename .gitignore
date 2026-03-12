@@ -1,0 +1,25 @@
+# Environnements virtuels
+env/
+venv/
+mon_env/
+.conda
+__pycache__/
+
+# Fichiers de données sensibles
+*.csv
+*.xlsx
+*.json
+*.db
+*.sqlite
+
+# Fichiers de configuration locaux
+.env
+.secrets
+config.ini
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+*.log
