@@ -4,3 +4,15 @@
 #secondaryBackgroundColor="#F0F2F6"
 #textColor="#262730"
 #font="sans serif"
+
+
+[server]
+# Configuration du serveur
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+[browser]
+# Comportement du navigateur
+gatherUsageStats = false # Respecter la vie privée
+serverAddress = "0.0.0.0"

@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pages import exploration,visualisations,model
+from components import exploration,visualisations,model
 
 st.set_page_config(page_title="House Prices Explorer", layout="wide")
 st.title("House Prices Explorer")
