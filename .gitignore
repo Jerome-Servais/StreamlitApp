@@ -6,7 +6,7 @@ mon_env/
 __pycache__/
 
 # Fichiers de données sensibles
-*.csv
+#*.csv
 *.xlsx
 *.json
 *.db
